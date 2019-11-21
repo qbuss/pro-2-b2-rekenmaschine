@@ -6,7 +6,33 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Worldknh!");
+            int nummer1 = 0;
+            int nummer2 = 0;
+            int 
+
+            
+            while(true)
+            {
+                //eerste
+                header();
+                Console.WriteLine("schrijf nu je eerste letter");
+                nummer1 = Convert.ToInt32(Console.ReadLine());
+
+                //tweede
+                header();
+                Console.WriteLine("modulo = %, min = -, plus = +");
+                Console.WriteLine("schrijf nu je functie");
+                nummer1 = Convert.ToInt32(Console.ReadLine());
+                //derde
+
+            }
+            void header()
+            {
+                Console.Clear();
+                Console.WriteLine("--==========================--");
+                Console.WriteLine("--==Welkom in rekenmachine==--"); 
+                Console.WriteLine("--==========================--");
+            }
         }
     }
 }
