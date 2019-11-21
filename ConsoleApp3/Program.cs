@@ -8,8 +8,6 @@ namespace ConsoleApp3
         {
             int nummer1 = 0;
             int nummer2 = 0;
-            int 
-
             
             while(true)
             {
